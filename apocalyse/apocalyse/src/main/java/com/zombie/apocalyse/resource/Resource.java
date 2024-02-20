@@ -59,11 +59,11 @@ public class Resource {
     @ManyToOne
     private Survivor survivor;
 
-    public Survivor getCompany() {
+    public Survivor getSurvivor() {
         return survivor;
     }
 
-    public void setCompany(Survivor survivor) {
+    public void setSurvivor(Survivor survivor) {
         this.survivor = survivor;
     }
 
